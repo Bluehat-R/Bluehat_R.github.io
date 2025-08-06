@@ -1,28 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Arial', sans-serif; /* 全体のフォントをArialに設定 */
+    line-height: 1.6; /* 行の高さを調整 */
+    margin: 20px; /* ページの周りに余白を設定 */
+    background-color: #f4f4f4; /* 背景色を薄いグレーに */
+    color: #333; /* 文字色を濃いグレーに */
 }
 
 h1 {
-    color: #0056b3;
+    color: #0056b3; /* h1タグ（一番大きな見出し）の色を青に */
 }
 
 h2 {
-    border-bottom: 2px solid #0056b3;
-    padding-bottom: 5px;
+    border-bottom: 2px solid #0056b3; /* h2タグの下に青い線を引く */
+    padding-bottom: 5px; /* 線と文字の間に少し余白を作る */
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* 箇条書きの黒い点を消す */
+    padding: 0; /* 左側の余白を消す */
 }
 
 li {
-    background-color: #e2e2e2;
-    margin-bottom: 5px;
-    padding: 10px;
-    border-radius: 5px;
+    background-color: #e2e2e2; /* 箇条書きの背景色をグレーに */
+    margin-bottom: 5px; /* 項目ごとに下に余白を作る */
+    padding: 10px; /* 項目の中に余白を作る */
+    border-radius: 5px; /* 角を少し丸くする */
 }
