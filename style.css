@@ -26,3 +26,22 @@ li {
     padding: 10px; /* 項目の中に余白を作る */
     border-radius: 5px; /* 角を少し丸くする */
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    li {
+        padding: 8px;
+    }
+}
